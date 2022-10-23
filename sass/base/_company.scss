@@ -1,0 +1,57 @@
+.test__section__teams {
+    margin-bottom: 50px;
+    text-align: center;
+    color: var(--brand-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.test__list {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px
+}
+
+.test__item {
+    width: calc((100% - 150px) / 6);
+    height: 92px;
+}
+
+.test__link {
+    height: 100%;
+    border: 1px solid #AFB1B8;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: scale(1); */
+    transition: border-color 250ms ease-in-out;
+    &:hover,
+    &:focus {
+            border-color: var(--accent-color);
+            transition: border-color 250ms ease-in-out;
+        }
+}
+
+.test__link__icon {
+    fill: #AFB1B8;
+    transition: border-color 0.25s ease-in-out;
+    .test__link:hover & {
+            fill: var(--accent-color);
+            /* transform: scale(1); */
+            transition: fill 250ms ease-in-out;
+        }
+    
+        .test__link:focus & {
+            fill: var(--accent-color);
+            /* transform: scale(1); */
+            transition: fill 250ms ease-in-out;
+        }
+}
+
+
+

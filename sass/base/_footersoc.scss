@@ -1,0 +1,124 @@
+.footer__soc__title {
+    color: var(--studio-title);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--studio-title);
+    margin-bottom: 20px;
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__address {
+    /* max-width: 231px;
+    width: 100%; */
+    margin-right: 70px;
+}
+
+.footer__soc__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__soc__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 0.25s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.1);
+    &:hover,
+    &:focus {
+            background-color: var(--accent-color);
+        }
+}
+
+.footer__soc__item:not(:last-child) {
+    margin-right: 10px;
+}
+.social__icon{
+    .footer__soc__link:hover,
+    .footer__soc__link:focus & {
+            fill: var(--studio-title);
+        }
+}
+
+
+.footer__soc__icon {
+    fill: var(--studio-title);
+}
+
+/* sive */
+.footer__subscribe__title {
+    color: var(--studio-title);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--studio-title);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+/* .vid{
+    display: flex;
+    align-items: baseline;
+    
+} */
+.footer__div {
+    padding-left: 93px;
+}
+
+.footer__input {
+    background-color: rgba(47, 48, 58, 1);
+    color: var(--studio-title);
+    width: 358px;
+    height: 50px;
+    left: 815px;
+    top: 2784px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    padding-left: 16px;
+    margin-right: 12px;
+    &::placeholder {
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.3);
+            /* padding-left: 16px; */
+            padding-bottom: 15px;
+        }
+}
+
+
+
+.footer__buttom__sive {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+
+    width: 200px;
+    height: 50px;
+    left: 1185px;
+    top: 2784px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    padding-right: 28px;
+    cursor: pointer;
+}
+
+.footer__svg {
+    position: absolute;
+    margin-left: 10px;
+}
