@@ -15,10 +15,10 @@
 }
 
 .hero__title {
-    width: 696px;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 30px;
+    // width: 696px;
+    // margin: auto;
+    // text-align: center;
+    // margin-bottom: 30px;
 
 
     color: var(--background-color);
@@ -28,7 +28,29 @@
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.06em;
+    @media screen and(min-width: 480px) {
+            width: 360px;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 30px;
+    
+        }
+    
+        @media screen and(min-width: 768px) {
+            width: 360px;
+            margin: auto;
+                text-align: center;
+                margin-bottom: 30px;
+        }
+    
+        @media screen and(min-width: 1200px) {
+            width: 696px;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 30px;
+        }
 }
+
 
 .hero__button__primary {
     color: #FFFFFF;
