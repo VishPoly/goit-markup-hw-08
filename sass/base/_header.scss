@@ -33,10 +33,33 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    @media screen and(min-width: 480px) {
+            display: none;
+        }
+    
+        @media screen and(min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            display: inline-block;
+            
+        }
+    
+        @media screen and(min-width: 1200px) {
+            display: flex;
+            width: 400px;
+        }
 }
 
 .auth-nav .item+.item {
+    
+    @media screen and(min-width: 768px) {
+        margin: 0;
+        margin-left: -18px;
+    
+    }
+    @media screen and(min-width: 1200px) {
     margin-left: 50px;
+    }
 }
 
 .main-nav {
@@ -70,7 +93,20 @@
             color: var(--accent-color);
             transition: background-color, color 0.25s ease-in-out;
         }
+        @media screen and(min-width: 480px) {
+            display: none;
+        }
+    
+        @media screen and(min-width: 768px) {
+            display: flex;
+            
+        }
+    
+        @media screen and(min-width: 1200px) {
+            display: flex;
+        }
 }
+
 
 
 

@@ -1,6 +1,7 @@
 .footer {
     padding-bottom: 60px;
     padding-top: 60px;
+    
 
     background-color: var(--background-hero);
 }
@@ -12,8 +13,9 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    display: inline-block;
     margin-bottom: 20px;
-    display: flex;
+    
     /* margin-bottom: 9px; */
 }
 
@@ -21,7 +23,31 @@
     margin-top: 20px;
     /* margin-bottom: 9px; */
 }
-
+.footer__social {
+    
+    // width: 100%;
+    @media screen and(min-width: 480px) {
+            width: 480px;
+            display: block;
+            text-align: center;
+        }
+    
+        @media screen and(min-width: 768px) {
+            position: absolute;
+            display: inline-block;
+            width: 50%;
+            // padding-top: -200px;
+            
+        }
+    
+        @media screen and(min-width: 1200px) {
+            width: 1200px;
+            
+            position: inherit;
+    
+    
+        }
+}
 .footer-studio-title {
     color: var(--studio-title);
     
@@ -33,6 +59,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.02em;
+    
 
     &:hover,
     &:focus {
@@ -48,6 +75,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    
     &:hover,
     &:focus {
             color: var(--accent-color);
