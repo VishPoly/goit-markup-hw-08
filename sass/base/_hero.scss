@@ -8,11 +8,54 @@
     background-color: var(--background-hero);
 
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../imeges/img3/Img\ \(1\).jpg);
+        url(../imeges/img3/logo-mob.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                    url(../imeges/img3/logo-mob2.jpg);
+        }
+    @media screen and(min-width: 768px){
+        padding: 272px 100px 237px;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url(../imeges/img3/logo-tab.jpg);
+                @media (min-device-pixel-ratio: 2),
+                    (min-resolution: 192dpi),
+                    (min-resolution: 2dppx) {
+                        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                            url(../imeges/img3/logo-tab2.jpg);
+                    }
+    }
+    @media screen and(min-width: 1200px) {
+        padding: 272px 100px 208px;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                url(../imeges/img3/logo-des.jpg);
+                @media (min-device-pixel-ratio: 2),
+                    (min-resolution: 192dpi),
+                    (min-resolution: 2dppx) {
+                        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+                            url(../imeges/img3/logo-des2.jpg);
+                    }
+        }
 }
+// .hero-container{
+//     display: flex;
+//     padding: 0;
+//     @media screen and(min-width: 480px){
+//         width: 100%;
+//     }
+//         @media screen and(min-width: 768px){
+//         width: 720px;
+//         padding-left: 15px;
+//         padding-right: 15px;
+//     }
+//         @media screen and(min-width: 1200px){
+//         width: 1200px;
+//     }
+// }
 
 .hero__title {
     // width: 696px;
